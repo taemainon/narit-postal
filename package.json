@@ -1,0 +1,45 @@
+{
+    "name": "video-request",
+    "version": "1.0.0",
+    "description": "",
+    "main": "services.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon services.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@editorjs/editorjs": "^2.23.2",
+        "bcrypt": "^5.1.0",
+        "body-parser": "^1.20.0",
+        "collect.js": "^4.30.3",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^16.0.3",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "ldap-authentication": "^2.2.9",
+        "ldapjs": "^2.3.2",
+        "ldapjs-client": "^0.1.1",
+        "lite-server": "^2.6.1",
+        "moment": "^2.29.1",
+        "mongodb": "^4.12.0",
+        "mongoose": "^5.13.7",
+        "multer": "^1.4.4",
+        "mysql": "^2.18.1",
+        "node-rsa": "^1.1.1",
+        "nodemailer": "^6.7.2",
+        "passport": "^0.5.3",
+        "passport-jwt": "^4.0.0",
+        "passport-ldapauth": "^3.0.1",
+        "passport-local": "^1.0.0",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.6",
+        "socket.io": "^4.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
